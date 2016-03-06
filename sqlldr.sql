@@ -18,9 +18,5 @@ into table "HR"."EMP"
 fields terminated by "," optionally enclosed by '"'
 ( empno, ename, v3, v4 )
 
-
-
-
-
 --run this statmenta as a sysdba privilages
 $ SQLLDR system/sys@XE control= C:\Users\abdee_000\Documents\sqlloader.ctl
